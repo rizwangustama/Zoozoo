@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+@media screen and (max-width: 1280px) {
+  header {
+    background-color: white;
+  }
+  header .container {
+    padding: 0 80px;
+  }
+  header .container menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 75px;
+    padding: 0;
+  }
+  header .container menu .logo {
+    display: flex;
+    align-items: center;
+  }
+  header .container menu .logo img {
+    width: 102px;
+    display: flex;
+  }
+  header .container menu nav {
+    display: flex;
+    align-items: center;
+  }
+  header .container menu nav ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+  }
+  header .container menu nav ul li:nth-child(6) {
+    margin: 0;
+  }
+  header .container menu nav ul li {
+    margin: 0 10px;
+    font-family: "Maven Pro", Sans-serif;
+    list-style-type: none;
+    font-size: 14px;
+  }
+  header .container menu nav ul li a {
+    text-decoration: none;
+    color: #4F4F4F;
+  }
+  header .container menu nav ul li a:hover {
+    color: #F1DD04;
+  }
+  header .container menu nav ul li button {
+    border: 1px solid transparent;
+    background-color: #F1DD04;
+    color: #626262;
+    width: 167px;
+    height: 42px;
+    border-radius: 24px;
+  }
+  header .container menu nav ul li button:hover {
+    border: 2px solid #F1dd04;
+    background-color: transparent;
+  }
+
+  #carosel {
+    position: relative;
+  }
+  #carosel img {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #carosel .container {
+    padding: 0 80px;
+  }
+  #carosel .container .title {
+    padding-top: 120px;
+  }
+  #carosel .container .title h1, #carosel .container .title h2 {
+    color: #FFC545;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: bold;
+  }
+  #carosel .container .title h1 {
+    font-size: 64px;
+  }
+  #carosel .container .title h2 {
+    font-size: 55px;
+  }
+  #carosel .container .content p {
+    width: 479px;
+    font-family: "Maven Pro", Sans-serif;
+    color: #35401E;
+    line-height: 25px;
+  }
+  #carosel .container .box {
+    margin-top: 26px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35px;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  #carosel .container .box .item img {
+    height: 30px;
+    position: relative;
+  }
+  #carosel .container button {
+    background-color: #F1DD04;
+    border: 1px solid transparent;
+    width: 230px;
+    height: 45px;
+    margin-top: 82px;
+    border-radius: 26px;
+  }
+}/*# sourceMappingURL=main.css.map */
