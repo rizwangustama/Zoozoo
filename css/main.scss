@@ -9,120 +9,212 @@ $color-secondary: #333333;
 $font-primary: 'Montserrat', Sans-serif;
 $font-secondary: 'Maven Pro', Sans-serif;
 
-@media screen and (max-width: 1280px) {
-  header {
-    background-color: rgb(255, 255, 255);
-    .container {
-      padding: 0 80px;
-      menu {
+header {
+  background-color: rgb(255, 255, 255);
+  .container {
+    padding: 0 80px;
+    menu {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      height: 75px;
+      padding: 0;
+      .logo {
         display: flex;
-        justify-content: space-between;
-        margin: 0;
-        height: 75px;
-        padding: 0;
-        .logo {
+        align-items: center;
+        img {
+          width: 102px;
           display: flex;
-          align-items: center;
-          img {
-            width: 102px;
-            display: flex;
 
-          }
         }
-        nav {
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        ul {
           display: flex;
+          margin: 0;
           align-items: center;
-          ul {
-            display: flex;
+          li:nth-child(6) {
             margin: 0;
-            align-items: center;
-            li:nth-child(6) {
-              margin: 0;
+          }
+          li {
+            margin: 0 10px;
+            font-family: $font-secondary;
+            list-style-type: none;
+            font-size: 14px;
+            a {
+              text-decoration: none;
+              color: #4F4F4F;
             }
-            li {
-              margin: 0 10px;
-              font-family: $font-secondary;
-              list-style-type: none;
-              font-size: 14px;
-              a {
-                text-decoration: none;
-                color: #4F4F4F;
-              }
-              a:hover {
-                color: #F1DD04;
-              }
-              button {
-                border: 1px solid transparent;
-                background-color: #F1DD04;
-                color: #626262;
-                width: 167px;
-                height: 42px;
-                border-radius: 24px;
+            a:hover {
+              color: #F1DD04;
+            }
+            button {
+              border: 1px solid transparent;
+              background-color: #F1DD04;
+              color: #626262;
+              width: 167px;
+              height: 42px;
+              border-radius: 24px;
                 
-              }
-              button:hover {
-                border: 2px solid #F1dd04;
-                background-color: transparent;
-              }
+            }
+            button:hover {
+              border: 2px solid #F1dd04;
+              background-color: transparent;
             }
           }
         }
       }
     }
   }
+}
 
-  #carosel {
-    position: relative;
-    img {
-      position: absolute;
-      right: 0;
-      top: 0;
+#carosel {
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 645px;
+  // position: relative;
+  // img {
+  //   position: absolute;
+  //   right: 0;
+  //   top: 0;
+  // }
+  .container {
+    padding: 0 80px;
+    .title {
+      padding-top: 120px;
+      h1 , h2{
+        color: $color-primary;
+        font-family: $font-primary;
+        font-weight: bold;
+      }
+      h1 {
+        font-size: 64px;
+      }
+      h2 {
+        font-size: 55px;
+      }
     }
-    .container {
-      padding: 0 80px;
-      .title {
-        padding-top: 120px;
-        h1 , h2{
-          color: $color-primary;
-          font-family: $font-primary;
-          font-weight: bold;
-        }
-        h1 {
-          font-size: 64px;
-        }
-        h2 {
-          font-size: 55px;
+    .content {
+      p {
+        width: 479px;
+        font-family: $font-secondary;
+        color:#35401E;
+        line-height: 25px;
+      }
+    }
+    .box {
+      margin-top: 26px;
+      width: 500px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 35px;
+      column-gap: 10px;
+      .item {
+        img {
+          height: 30px;
+          position: relative;
         }
       }
-      .content {
-        p {
-          width: 479px;
-          font-family: $font-secondary;
-          color:#35401E;
-          line-height: 25px;
+    }
+    button {
+      background-color: #F1DD04;
+      border: 1px solid transparent;
+      width: 230px;
+      height: 45px;
+      margin-top: 82px;
+      border-radius: 26px;
+    }
+  }
+}
+
+#about {
+  padding: 69px 0px;
+  .container {
+    padding: 0 80px;
+    .wrapper-about {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      column-gap: 42px;
+      .left {
+        display: flex;
+        align-items: center;
+        .left-wrapper {
+          display: block;
+          .title {
+            display: flex;
+            align-items: center;
+            span {
+              height: 2px;
+              width: 54px;
+              background-color: $color-primary;
+              margin-right: 18px;
+            }
+            h1 {
+              color: $color-primary;
+              font-size: 50px;
+              font-family: $font-primary;
+              font-weight: bold;
+            }
+          }
+          .content {
+            margin-top: 45px;
+            padding-left: 72px;
+            p {
+              font-family: $font-secondary;
+              color: $font-secondary;
+              font-size: 17px;
+              line-height: 40px;
+              text-align: justify;
+            }
+          }
+
         }
       }
-      .box {
-        margin-top: 26px;
-        width: 500px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 35px;
-        column-gap: 10px;
-        .item {
-          img {
-            height: 30px;
-            position: relative;
+      .right {
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+#swap {
+  padding: 150px 0;
+  .container {
+    padding: 0 80px;
+    .swap-wrapper {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      column-gap:  29px;
+      .left {
+        img {
+          max-width: 100%;
+        }
+      }
+      .right {
+        .right-wrapper {
+          .title {
+            h1 {
+              font-size: 50px;
+              font-weight: bold;
+              font-family: $font-primary;
+              color: $color-primary;
+            }
+          }
+          .content {
+            margin-top: 26px;
+            p {
+              font-size: 17px;
+              font-family: $font-secondary;
+              color: $color-secondary;
+              text-align: justify;
+              line-height: 40px;
+            }
           }
         }
-      }
-      button {
-        background-color: #F1DD04;
-        border: 1px solid transparent;
-        width: 230px;
-        height: 45px;
-        margin-top: 82px;
-        border-radius: 26px;
       }
     }
   }
