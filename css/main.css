@@ -188,4 +188,299 @@ header .container menu nav ul li button:hover {
   color: #333333;
   text-align: justify;
   line-height: 40px;
+}
+
+#nft {
+  padding: 90px 0;
+}
+#nft .container {
+  padding: 0 80px;
+}
+#nft .container .nft-wrapper {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+#nft .container .nft-wrapper .left {
+  display: flex;
+  align-items: center;
+}
+#nft .container .nft-wrapper .left .left-wrapper .title {
+  display: flex;
+  align-items: center;
+}
+#nft .container .nft-wrapper .left .left-wrapper .title span {
+  width: 60px;
+  height: 2px;
+  background-color: #FFC545;
+}
+#nft .container .nft-wrapper .left .left-wrapper .title h1 {
+  margin-left: 20px;
+  color: #FFC545;
+  font-size: 50px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: bold;
+}
+#nft .container .nft-wrapper .left .left-wrapper .content {
+  margin-top: 26px;
+}
+#nft .container .nft-wrapper .left .left-wrapper .content p {
+  font-family: "Maven Pro", Sans-serif;
+  color: #333333;
+  font-size: 17px;
+  text-align: justify;
+  line-height: 40px;
+}
+#nft .container .nft-wrapper .right img {
+  max-width: 100%;
+}
+
+#staking {
+  padding: 114px 0;
+}
+#staking .container {
+  padding: 0 80px;
+}
+#staking .container .staking-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#staking .container .staking-wrapper .left img {
+  max-width: 100%;
+}
+#staking .container .staking-wrapper .right {
+  display: flex;
+  align-items: center;
+}
+#staking .container .staking-wrapper .right .right-wrapper .title h1 {
+  color: #FFC545;
+  font-size: 50px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: bold;
+}
+#staking .container .staking-wrapper .right .right-wrapper .content {
+  margin-top: 26px;
+}
+#staking .container .staking-wrapper .right .right-wrapper .content p {
+  font-size: 17px;
+  font-family: "Maven Pro", Sans-serif;
+  line-height: 40px;
+  text-align: justify;
+}
+
+#our {
+  background-color: #37474F;
+  padding: 146px 0;
+}
+#our .container {
+  padding: 0 80px;
+}
+#our .container .our-wrapper .title {
+  color: #FFC545;
+  font-size: 50px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+#our .container .our-wrapper .description {
+  padding-top: 84px;
+  font-family: "Maven Pro", Sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+}
+
+#coin {
+  background: #FFFDF5;
+  padding: 112px 0;
+}
+#coin .container {
+  padding: 0 80px;
+}
+#coin .container .coin-wrapper {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+}
+#coin .container .coin-wrapper .left {
+  display: flex;
+  align-items: center;
+}
+#coin .container .coin-wrapper .left .left-wrapper .title {
+  margin-bottom: 39px;
+  display: flex;
+  align-items: center;
+}
+#coin .container .coin-wrapper .left .left-wrapper .title span {
+  background-color: #FFC545;
+  width: 54px;
+  height: 2px;
+}
+#coin .container .coin-wrapper .left .left-wrapper .title h1 {
+  margin-left: 34px;
+  color: #FFC545;
+  font-size: 50px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: bold;
+}
+#coin .container .coin-wrapper .left .left-wrapper table {
+  margin: 0 0 0 88px;
+}
+#coin .container .coin-wrapper .left .left-wrapper table tbody tr td {
+  font-size: 18px;
+  font-family: "Maven Pro", Sans-serif;
+  line-height: 40px;
+}
+#coin .container .coin-wrapper .right img {
+  max-width: 100%;
+}
+
+#games {
+  padding: 50px 0;
+}
+#games .container {
+  padding: 0 80px;
+}
+#games .container .games-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#games .container .games-wrapper .left .left-wrapper .title {
+  display: flex;
+  align-items: center;
+}
+#games .container .games-wrapper .left .left-wrapper .title span {
+  width: 64px;
+  height: 2px;
+  background-color: #FFC545;
+}
+#games .container .games-wrapper .left .left-wrapper .title h1 {
+  margin-left: 22px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFC545;
+  font-family: "Montserrat", Sans-serif;
+}
+#games .container .games-wrapper .left .left-wrapper .content {
+  margin-top: 34px;
+}
+#games .container .games-wrapper .left .left-wrapper .content p {
+  font-size: 17px;
+  font-family: "Maven Pro", Sans-serif;
+  text-align: justify;
+  line-height: 30px;
+}
+#games .container .games-wrapper .right {
+  display: flex;
+  align-items: center;
+}
+#games .container .games-wrapper .right img {
+  max-width: 100%;
+}
+
+#phase {
+  background: #FFFDF5;
+  padding: 200px 0px 100px 0;
+}
+#phase .container {
+  padding: 0 80px;
+}
+#phase .container .phase-wrapper .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+#phase .container .phase-wrapper .box .item {
+  border: 1px solid transparent;
+  padding: 90px 20px 40px 20px;
+  position: relative;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color: white;
+}
+#phase .container .phase-wrapper .box .item .logo {
+  width: 114px;
+  height: 114px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid #FFF2E5;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  justify-content: center;
+}
+#phase .container .phase-wrapper .box .item .logo h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Montserrat", Sans-serif;
+  color: #FFC545;
+}
+#phase .container .phase-wrapper .box .item .title h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat", Sans-serif;
+  text-align: center;
+  line-height: 29px;
+  padding: 10px 0;
+}
+#phase .container .phase-wrapper .box .item .list ul {
+  padding: 0;
+  margin: 0;
+}
+#phase .container .phase-wrapper .box .item .list ul li {
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+#exchanges {
+  padding: 100px 0;
+  background: #FFFDF5;
+}
+#exchanges .container {
+  padding: 0 80px;
+}
+#exchanges .container .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+#exchanges .container .title span {
+  width: 54px;
+  height: 2px;
+  background-color: #FFC545;
+}
+#exchanges .container .title h1 {
+  margin-left: 18px;
+  color: #FFC545;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Montserrat", Sans-serif;
+}
+#exchanges .container .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+}
+#exchanges .container .box .item {
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#exchanges .container .box .item img {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
