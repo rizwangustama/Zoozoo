@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
   
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/mobile.css">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -70,6 +71,41 @@
       <div class="content">
         <p>
           NFT. A peer-to-peer marketplace for NFTs, rare digital items and NFT collectibles. Buy, sell, auction, Swap, Farm-game
+          (DEFI)
+        </p>
+      </div>
+      <div class="box">
+        <div class="item">
+          <img src="./assets/polygon.png" alt="">
+        </div>
+        <div class="item">
+          <img src="./assets/binace.png" alt="">
+        </div>
+        <div class="item">
+          <img src="./assets/solana.png" alt="">
+        </div>
+      </div>
+      <button>
+        connect wallet
+      </button>
+    </div>
+  </section>
+
+  <section id="carosel-mobile">
+    <!-- <img src="./assets/bacground.svg" alt=""> -->
+    <div class="container">
+      <div class="title">
+        <h1>
+          Welcome
+        </h1>
+        <h2>
+          to Zoozoo Swap
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          NFT. A peer-to-peer marketplace for NFTs, rare digital items and NFT collectibles. Buy, sell, auction, Swap,
+          Farm-game
           (DEFI)
         </p>
       </div>
@@ -664,6 +700,27 @@
     var swiper = new Swiper(".mySwiper", {
       slidesPerView: 4,
       spaceBetween: 20,
+      breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        1000: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        }
+      },
       freeMode: true,
       pagination: {
         el: ".swiper-pagination",

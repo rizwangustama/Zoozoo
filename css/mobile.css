@@ -1,0 +1,186 @@
+@media screen and (max-width: 992px) {
+  #carosel {
+    display: none;
+  }
+
+  #carosel-mobile {
+    display: flex;
+  }
+
+  #phase .container .phase-wrapper .box {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 100px;
+    grid-template-rows: repeat(2, 480px);
+  }
+
+  #exchanges .container .box {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 150px);
+  }
+
+  #future .container .box {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 150px);
+  }
+
+  #token .container .token-wrapper .left {
+    left: 60px;
+  }
+  #token .container .token-wrapper .center {
+    display: flex;
+  }
+  #token .container .token-wrapper .center img {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  #token .container .token-wrapper .right {
+    right: 0px;
+    top: -50px;
+  }
+  #token .container .token-wrapper .right2 {
+    right: 20px;
+    top: 150px;
+  }
+  #token .container .token-wrapper .right3 {
+    right: 20px;
+    top: 330px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+
+  #carosel-mobile .container {
+    padding: 0;
+  }
+  #carosel-mobile .container .title h1, #carosel-mobile .container .title h2 {
+    text-align: center;
+  }
+  #carosel-mobile .container .content p {
+    text-align: center;
+    margin: 40px auto;
+  }
+  #carosel-mobile .container .box {
+    margin: 0 auto;
+  }
+  #carosel-mobile .container button {
+    width: 100%;
+  }
+
+  #about .container {
+    padding: 0;
+  }
+  #about .container .wrapper-about {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    row-gap: 100px;
+  }
+  #about .container .wrapper-about .left {
+    grid-row: 2;
+  }
+  #about .container .wrapper-about .left .left-wrapper .content {
+    padding-left: 0;
+  }
+  #about .container .wrapper-about .right {
+    display: flex;
+    grid-row: 1;
+  }
+  #about .container .wrapper-about .right img {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+
+  #swap .container {
+    padding: 0;
+  }
+  #swap .container .swap-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  #nft .container {
+    padding: 0;
+  }
+  #nft .container .nft-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+  #nft .container .nft-wrapper .left {
+    grid-row: 2;
+  }
+  #nft .container .nft-wrapper .right {
+    grid-row: 1;
+  }
+
+  #staking .container {
+    padding: 0;
+  }
+  #staking .container .staking-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+
+  #our .container {
+    padding: 0;
+  }
+
+  #coin .container {
+    padding: 0;
+  }
+  #coin .container .coin-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+  #coin .container .left {
+    grid-row: 2;
+  }
+  #coin .container .right {
+    grid-row: 1;
+    display: flex;
+  }
+  #coin .container .right img {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  #games .container {
+    padding: 0;
+  }
+  #games .container .games-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #phase .container {
+    padding: 0;
+  }
+
+  #exchanges .container {
+    padding: 0;
+  }
+
+  #future .container {
+    padding: 0;
+  }
+
+  footer .container {
+    padding: 0;
+  }
+  footer .container .top {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+  footer .gambar .content {
+    padding-top: 350px;
+  }
+  footer .gambar .content .title {
+    display: none;
+  }
+  footer .gambar .content .copy {
+    margin-top: 20px;
+  }
+  footer .gambar img {
+    background-size: cover;
+    background-position: center top;
+  }
+}/*# sourceMappingURL=mobile.css.map */

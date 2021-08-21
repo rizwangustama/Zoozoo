@@ -1,0 +1,239 @@
+@media screen and (max-width: 992px) {
+  #carosel {
+    display: none;
+  }
+  #carosel-mobile {
+    display: flex;
+  }
+
+  #phase {
+    .container {
+      .phase-wrapper {
+        .box {
+          grid-template-columns: 1fr 1fr;
+          row-gap: 100px;
+          grid-template-rows: repeat(2, 480px);
+        }
+      }
+    }
+  }
+
+  #exchanges {
+    .container {
+      .box {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 150px);
+      }
+    }
+  }
+
+  #future {
+    .container {
+      .box {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 150px);
+      }
+    }
+  }
+
+  #token {
+    .container {
+      .token-wrapper {
+        .left {
+          left: 60px;
+        }
+        .center {
+          display: flex;
+          img {
+            max-width: 70%;
+            margin: 0 auto;
+          }
+        }
+        .right {
+          right: 0px;
+          top: -50px;
+        }
+
+        .right2 {
+          right: 20px;
+          top: 150px;
+        }
+        .right3 {
+          right: 20px;
+          top: 330px;
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+
+  #carosel-mobile {
+    .container {
+      padding: 0;
+      .title {
+        h1, h2 {
+          text-align: center;
+        }
+      }
+      .content {
+        p {
+          text-align: center;
+          margin: 40px auto;
+        }
+      }
+      .box {
+        margin: 0 auto;
+      }
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  #about {
+    .container {
+      padding: 0;
+      .wrapper-about {
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+        row-gap: 100px;
+        .left {
+          grid-row: 2;
+          .left-wrapper {
+            .content {
+              padding-left: 0;
+            }
+          }
+
+        }
+        .right {
+          display: flex;
+          grid-row: 1;
+          img {
+            margin: 0 auto;
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+
+  #swap {
+    .container {
+      padding: 0;
+      .swap-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+      }
+    }
+  }
+  #nft {
+    .container {
+      padding: 0;
+      .nft-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+        .left {
+          grid-row: 2;
+        }
+        .right {
+          grid-row: 1;
+        }
+      }
+    }
+  }
+  #staking {
+    .container {
+      padding: 0;
+      .staking-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+      }
+    }
+  }
+
+  #our {
+    .container {
+      padding: 0;
+    }
+  }
+
+  #coin {
+    .container {
+      padding: 0;
+      .coin-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+      }
+      .left {
+        grid-row: 2;
+      }
+      .right {
+        grid-row: 1;
+        display:  flex;
+        img {
+          margin: 0 auto;
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  #games {
+    .container {
+      padding: 0;
+      .games-wrapper {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  #phase {
+    .container {
+      padding: 0;
+    }
+  }
+
+  #exchanges {
+    .container {
+      padding: 0;
+    }
+  }
+
+  #future {
+    .container {
+      padding: 0;
+    }
+  }
+  footer {
+    .container {
+      padding: 0;
+      .top {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+      }
+    }
+    .gambar {
+      .content {
+        padding-top: 350px;
+        .title {
+          display: none;
+        }
+        .copy {
+          margin-top: 20px;
+        }
+      }
+      img {
+        background-size: cover;
+        background-position: center top;
+      }
+    }
+  }
+}
+

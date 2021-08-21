@@ -113,6 +113,60 @@ header .container menu nav ul li button:hover {
   border-radius: 26px;
 }
 
+#carosel-mobile {
+  height: 645px;
+  display: none;
+}
+#carosel-mobile .container {
+  padding: 0 80px;
+}
+#carosel-mobile .container .title {
+  padding-top: 120px;
+}
+#carosel-mobile .container .title h1, #carosel-mobile .container .title h2 {
+  color: #FFC545;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: bold;
+}
+#carosel-mobile .container .title h1 {
+  font-size: 64px;
+}
+#carosel-mobile .container .title h2 {
+  font-size: 55px;
+}
+#carosel-mobile .container .content p {
+  width: 479px;
+  font-family: "Maven Pro", Sans-serif;
+  color: #35401E;
+  line-height: 25px;
+}
+#carosel-mobile .container .box {
+  margin-top: 26px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 35px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#carosel-mobile .container .box .item img {
+  height: 30px;
+  position: relative;
+}
+#carosel-mobile .container button:hover {
+  background-color: transparent;
+  border: 2px solid #F1DD04;
+}
+#carosel-mobile .container button {
+  transition: 1s ease-in-out;
+  background-color: #F1DD04;
+  border: 2px solid transparent;
+  width: 230px;
+  height: 45px;
+  margin-top: 82px;
+  border-radius: 26px;
+}
+
 #about {
   padding: 69px 0px;
 }
