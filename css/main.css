@@ -99,9 +99,14 @@ header .container menu nav ul li button:hover {
   height: 30px;
   position: relative;
 }
+#carosel .container button:hover {
+  background-color: transparent;
+  border: 2px solid #F1DD04;
+}
 #carosel .container button {
+  transition: 1s ease-in-out;
   background-color: #F1DD04;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   width: 230px;
   height: 45px;
   margin-top: 82px;
@@ -469,11 +474,16 @@ header .container menu nav ul li button:hover {
 #exchanges .container .box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 94px);
   -moz-column-gap: 20px;
        column-gap: 20px;
   row-gap: 20px;
 }
+#exchanges .container .box .item:hover {
+  box-shadow: 0px 8px 16px transparent;
+}
 #exchanges .container .box .item {
+  transition: 1s ease-out;
   background-color: white;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
@@ -483,6 +493,55 @@ header .container menu nav ul li button:hover {
   justify-content: center;
 }
 #exchanges .container .box .item img {
+  width: 100%;
+}
+
+#future {
+  padding: 100px 0;
+  background: #FFFDF5;
+}
+#future .container {
+  padding: 0 80px;
+}
+#future .container .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+#future .container .title span {
+  width: 54px;
+  height: 2px;
+  background-color: #FFC545;
+}
+#future .container .title h1 {
+  margin-left: 18px;
+  color: #FFC545;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Montserrat", Sans-serif;
+}
+#future .container .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  grid-template-rows: repeat(2, 94px);
+  row-gap: 20px;
+}
+#future .container .box .item:hover {
+  box-shadow: 0px 8px 16px transparent;
+}
+#future .container .box .item {
+  transition: 1s ease-out;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#future .container .box .item img {
   width: 100%;
 }
 
@@ -709,7 +768,12 @@ footer .gambar .content .sosmed {
 footer .gambar .content .sosmed .sosmed-wrapper {
   display: flex;
 }
+footer .gambar .content .sosmed .sosmed-wrapper .box:hover {
+  border: 1px solid transparent;
+  background: white;
+}
 footer .gambar .content .sosmed .sosmed-wrapper .box {
+  transition: 0.5s ease-in-out;
   margin: 0 10px;
   padding: 14px;
   border: 1px solid black;
