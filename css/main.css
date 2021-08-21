@@ -385,13 +385,13 @@ header .container menu nav ul li button:hover {
   font-family: "Montserrat", Sans-serif;
   font-weight: bold;
 }
-#coin .container .coin-wrapper .left .left-wrapper table {
-  margin: 0 0 0 88px;
-}
 #coin .container .coin-wrapper .left .left-wrapper table tbody tr td {
   font-size: 18px;
   font-family: "Maven Pro", Sans-serif;
   line-height: 40px;
+}
+#coin .container .coin-wrapper .left .left-wrapper table tbody tr td br {
+  display: none;
 }
 #coin .container .coin-wrapper .right img {
   max-width: 100%;

@@ -434,13 +434,16 @@ header {
             }
           }
           table {
-            margin: 0 0 0 88px;
+            
             tbody {
               tr {
                 td {
                   font-size: 18px;
                   font-family: $font-secondary;
                   line-height: 40px;
+                  br {
+                    display: none;
+                  }
                 }
               }
             }

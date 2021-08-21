@@ -183,4 +183,124 @@
     background-size: cover;
     background-position: center top;
   }
+}
+@media screen and (max-width: 428px) {
+  #carosel-mobile {
+    height: auto;
+  }
+  #carosel-mobile .container {
+    padding: 0 40px;
+  }
+  #carosel-mobile .container .title h1, #carosel-mobile .container .title h2 {
+    text-align: center;
+  }
+  #carosel-mobile .container .content p {
+    max-width: 100%;
+    text-align: center;
+    margin: 40px auto;
+  }
+  #carosel-mobile .container .box {
+    margin: 0 auto;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
+  #carosel-mobile .container button {
+    width: 100%;
+  }
+
+  #about .container {
+    padding: 0 40px;
+  }
+  #about .container .wrapper-about {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    row-gap: 100px;
+  }
+  #about .container .wrapper-about .left {
+    grid-row: 2;
+  }
+  #about .container .wrapper-about .left .left-wrapper .content {
+    padding-left: 0;
+  }
+  #about .container .wrapper-about .right {
+    display: flex;
+    grid-row: 1;
+  }
+  #about .container .wrapper-about .right img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  #swap .container {
+    padding: 0 40px;
+  }
+  #swap .container .swap-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+  }
+
+  #nft .container {
+    padding: 40px;
+  }
+  #nft .container .nft-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+  #nft .container .nft-wrapper .left {
+    grid-row: 2;
+  }
+  #nft .container .nft-wrapper .left .left-wrapper .title h1 {
+    font-size: 40px;
+  }
+  #nft .container .nft-wrapper .right {
+    grid-row: 1;
+  }
+  #nft .container .nft-wrapper .right img {
+    width: 100%;
+  }
+
+  #staking .container {
+    padding: 0 40px;
+  }
+  #staking .container .staking-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+
+  #our .container {
+    padding: 40px;
+  }
+
+  #coin .container {
+    padding: 0 20px;
+  }
+  #coin .container .coin-wrapper .left .left-wrapper table {
+    width: 100%;
+  }
+  #coin .container .coin-wrapper .left .left-wrapper table tbody tr td br {
+    display: block;
+  }
+
+  #games .container {
+    padding: 0 40px;
+  }
+  #games .container .games-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #phase .container {
+    padding: 0 40px;
+  }
+  #phase .container .phase-wrapper .box {
+    grid-template-columns: 1fr;
+  }
+
+  #exchanges .container {
+    padding: 0 40px;
+  }
+  #exchanges .container .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 150px);
+  }
 }/*# sourceMappingURL=mobile.css.map */
