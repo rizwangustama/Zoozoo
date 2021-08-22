@@ -221,7 +221,6 @@
     }
     .gambar {
       .content {
-        padding-top: 350px;
         .title {
           display: none;
         }
@@ -398,5 +397,160 @@
       }
     }
   }
+  #future {
+    .container {
+      padding: 0 40px;
+      .title {
+        h1 {
+          font-size: 30px;
+        }
+      }
+      .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 150px);
+      }
+    }
+  }
 }
 
+
+@media screen and (max-width: 375px) {
+  #carosel-mobile {
+    .container {
+      .title {
+        h1 {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+  #about {
+    .container {
+      .wrapper-about {
+        .left {
+          .left-wrapper {
+            .title {
+              h1 {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #swap {
+    .container {
+      .swap-wrapper {
+        .right {
+          .right-wrapper {
+            .title {
+              h1 {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #nft {
+    .container {
+      .nft-wrapper {
+        .left {
+          .left-wrapper {
+            .title {
+              h1 {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #staking {
+    .container {
+      .staking-wrapper {
+        .right {
+          .right-wrapper {
+            .title {
+              h1 {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #our {
+    padding: 60px 0;
+    .container {
+      .our-wrapper {
+        .title {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  #coin {
+    .container {
+      .coin-wrapper {
+        .left {
+          .left-wrapper {
+            .title {
+              h1 {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #games {
+    .container {
+      .games-wrapper {
+        .left {
+          .left-wrapper {
+            .title {
+              h1 {
+                font-size: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #exchanges {
+    .container {
+      .title {
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  #future {
+    .container {
+      .title {
+        h1 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+  #member {
+    .container {
+      .member-wrapper {
+        .title {
+          h1 {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -891,11 +891,13 @@ footer {
     }
   }
   .gambar {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    padding-top: 400px;
     .content{
-      position: absolute;
-      top: 70%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      
       .title {
         margin-bottom: 58px;
         h1 {
@@ -931,9 +933,6 @@ footer {
           color: $font-secondary;
         }
       }
-    }
-    img {
-      width: 100%;
     }
   }
 }

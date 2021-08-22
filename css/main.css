@@ -801,11 +801,12 @@ footer .container .top .item ul li a {
   text-decoration: none;
   color: #333333;
 }
-footer .gambar .content {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+footer .gambar {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+  padding-top: 400px;
 }
 footer .gambar .content .title {
   margin-bottom: 58px;
@@ -841,7 +842,4 @@ footer .gambar .content .copy h5 {
   font-size: 17px;
   font-family: "Maven Pro", Sans-serif;
   color: "Maven Pro", Sans-serif;
-}
-footer .gambar img {
-  width: 100%;
 }/*# sourceMappingURL=main.css.map */
