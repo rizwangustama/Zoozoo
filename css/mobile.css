@@ -312,6 +312,98 @@
     grid-template-rows: repeat(8, 150px);
   }
 }
+@media screen and (max-width: 448px) {
+  #carosel-mobile {
+    height: auto;
+  }
+  #carosel-mobile .container {
+    padding: 0 40px;
+  }
+  #carosel-mobile .container .title h1 {
+    font-size: 50px;
+  }
+  #carosel-mobile .container .content p {
+    max-width: 100%;
+  }
+  #carosel-mobile .container .box {
+    grid-template-columns: auto;
+    row-gap: 20px;
+    width: 100%;
+  }
+  #carosel-mobile .container .box .item {
+    justify-self: center;
+  }
+
+  #about .container {
+    padding: 0 40px;
+  }
+  #about .container .wrapper-about {
+    width: 100%;
+  }
+  #about .container .wrapper-about .right img {
+    max-width: 100%;
+  }
+
+  #swap .container {
+    padding: 0 40px;
+  }
+
+  #nft .container {
+    padding: 0 40px;
+  }
+  #nft .container .nft-wrapper .left .left-wrapper .title h1 {
+    font-size: 30px;
+  }
+
+  #staking .container {
+    padding: 0 40px;
+  }
+  #staking .container .staking-wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+  }
+
+  #our .container {
+    padding: 40px;
+  }
+
+  #coin .container {
+    padding: 0 20px;
+  }
+
+  #games .container {
+    padding: 0 40px;
+  }
+  #games .container .games-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #phase .container {
+    padding: 0 40px;
+  }
+  #phase .container .phase-wrapper .box {
+    grid-template-columns: 1fr;
+  }
+
+  #exchanges .container {
+    padding: 0 40px;
+  }
+  #exchanges .container .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 150px);
+  }
+
+  #future .container {
+    padding: 0 40px;
+  }
+  #future .container .title h1 {
+    font-size: 30px;
+  }
+  #future .container .box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 150px);
+  }
+}
 @media screen and (max-width: 375px) {
   #carosel-mobile .container .title h1 {
     font-size: 50px;
@@ -326,7 +418,7 @@
   }
 
   #nft .container .nft-wrapper .left .left-wrapper .title h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #staking .container .staking-wrapper .right .right-wrapper .title h1 {
@@ -358,5 +450,9 @@
 
   #member .container .member-wrapper .title h1 {
     font-size: 40px;
+  }
+
+  footer .gambar .sosmed .sosmed-wrapper {
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=mobile.css.map */

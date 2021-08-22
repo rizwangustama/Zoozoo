@@ -413,6 +413,127 @@
   }
 }
 
+@media screen and (max-width: 448px) {
+  #carosel-mobile {
+    height: auto;
+    .container {
+      padding: 0 40px;
+      .title {
+        h1 {
+          font-size: 50px;
+        }
+      }
+      .content {
+        p {
+          max-width: 100%;
+        }
+      }
+      .box {
+        grid-template-columns: auto;
+        row-gap: 20px;
+        width: 100%;
+        .item {
+          justify-self: center;
+        }
+      }
+    }
+  }
+  #about {
+    .container {
+      padding: 0 40px;
+      .wrapper-about {
+        width: 100%;
+        .right {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+  #swap {
+    .container {
+      padding: 0 40px;
+    }
+  }
+  #nft {
+    .container {
+      padding: 0 40px;
+      .nft-wrapper {
+        .left {
+          .left-wrapper {
+            .title {
+              h1 {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #staking {
+    .container {
+      padding: 0 40px;
+      .staking-wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+      }
+    }
+  }
+  #our {
+    .container {
+      padding: 40px;
+    }
+  }
+  #coin {
+    .container {
+      padding: 0 20px;
+    }
+  }
+  #games {
+    .container {
+      padding: 0 40px;
+      .games-wrapper {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  #phase {
+    .container {
+      padding: 0 40px;
+      .phase-wrapper {
+        .box {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+  }
+  #exchanges {
+    .container {
+      padding: 0 40px;
+      .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 150px);
+      }
+    }
+  }
+  #future {
+    .container {
+      padding: 0 40px;
+      .title {
+        h1 {
+          font-size: 30px;
+        }
+      }
+      .box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 150px);
+      }
+    }
+  }
+
+}
 
 @media screen and (max-width: 375px) {
   #carosel-mobile {
@@ -454,6 +575,7 @@
       }
     }
   }
+
   #nft {
     .container {
       .nft-wrapper {
@@ -461,7 +583,7 @@
           .left-wrapper {
             .title {
               h1 {
-                font-size: 30px;
+                font-size: 20px;
               }
             }
           }
@@ -469,6 +591,7 @@
       }
     }
   }
+
   #staking {
     .container {
       .staking-wrapper {
@@ -549,6 +672,22 @@
           h1 {
             font-size: 40px;
           }
+        }
+      }
+    }
+  }
+  footer {
+    .gambar {
+      .content {
+        .title {
+          h1 {
+
+          }
+        }
+      }
+      .sosmed {
+        .sosmed-wrapper {
+          flex-wrap: wrap;
         }
       }
     }
