@@ -163,6 +163,16 @@
     padding: 0;
   }
 
+  #token {
+    padding: 150px 0;
+  }
+  #token .container .token-wrapper .left {
+    display: none;
+  }
+  #token .container .token-wrapper .right, #token .container .token-wrapper .right2, #token .container .token-wrapper .right3 {
+    display: none;
+  }
+
   footer .container {
     padding: 0;
   }
@@ -403,6 +413,14 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 150px);
   }
+
+  footer .gambar .content .sosmed .sosmed-wrapper .box {
+    margin-bottom: 20px;
+  }
+  footer .gambar .content .sosmed .sosmed-wrapper .box svg {
+    width: 20px;
+    height: 20px;
+  }
 }
 @media screen and (max-width: 375px) {
   #carosel-mobile .container .title h1 {
@@ -454,5 +472,8 @@
 
   footer .gambar .sosmed .sosmed-wrapper {
     flex-wrap: wrap;
+  }
+  footer .gambar .sosmed .sosmed-wrapper .box {
+    margin-bottom: 20px;
   }
 }/*# sourceMappingURL=mobile.css.map */

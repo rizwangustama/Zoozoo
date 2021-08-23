@@ -211,6 +211,19 @@
       padding: 0;
     }
   }
+  #token {
+    padding: 150px 0;
+    .container {
+      .token-wrapper {
+        .left {
+          display: none;
+        }
+        .right , .right2, .right3 {
+          display: none;
+        }
+      }
+    }
+  }
   footer {
     .container {
       padding: 0;
@@ -533,6 +546,26 @@
     }
   }
 
+  footer {
+    .gambar {
+      .content {
+        .title {
+
+        }
+        .sosmed {
+          .sosmed-wrapper {
+            .box {
+              margin-bottom: 20px;
+              svg {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -607,6 +640,7 @@
       }
     }
   }
+
   #our {
     padding: 60px 0;
     .container {
@@ -617,6 +651,7 @@
       }
     }
   }
+
   #coin {
     .container {
       .coin-wrapper {
@@ -688,6 +723,9 @@
       .sosmed {
         .sosmed-wrapper {
           flex-wrap: wrap;
+          .box {
+            margin-bottom: 20px;
+          }
         }
       }
     }
