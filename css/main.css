@@ -600,7 +600,7 @@ header .container menu nav ul li button:hover {
 }
 
 #member {
-  padding: 150px 0;
+  padding: 150px 20;
   background: #FFFDF5;
 }
 #member .container {
@@ -614,6 +614,7 @@ header .container menu nav ul li button:hover {
   margin: 0;
   padding: 0;
   color: #000;
+  overflow: hidden;
 }
 #member .container .member-wrapper .title h1 {
   text-align: center;

@@ -672,7 +672,7 @@ header {
 
 
 #member {
-  padding: 150px 0;
+  padding: 150px 20;
   background: #FFFDF5;
   .container {
     padding: 0 40px;
@@ -683,6 +683,7 @@ header {
       font-family: $font-primary;
       margin: 0;
       padding: 0;color: #000;
+      overflow: hidden;
       .title {
         h1 {
           text-align: center;
