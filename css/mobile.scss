@@ -761,10 +761,11 @@
   #phase {
     .container {
       .phase-wrapper {
-        .box {
-          .item {
-            .list {
-              padding: 0 20px;
+        .swiper-container {
+          padding: 100px 10px;
+          .swiper-wrapper {
+            .swiper-slide {
+
             }
           }
         }

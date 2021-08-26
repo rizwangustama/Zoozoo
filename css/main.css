@@ -445,15 +445,17 @@ header .container menu nav ul li button:hover {
   padding: 200px 0px 100px 0;
 }
 #phase .container {
-  padding: 0 80px;
+  padding: 0 70px;
 }
-#phase .container .phase-wrapper .box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
+#phase .container .phase-wrapper .swiper-container {
+  overflow: hidden;
+  padding: 100px 40px;
+  width: 100%;
+  height: 100%;
 }
-#phase .container .phase-wrapper .box .item {
+#phase .container .phase-wrapper .swiper-container .swiper-wrapper .swiper-slide .item {
+  width: 100%;
+  height: 500px;
   border: 1px solid transparent;
   padding: 90px 20px 40px 20px;
   position: relative;
@@ -461,7 +463,7 @@ header .container menu nav ul li button:hover {
   border-radius: 5px;
   background-color: white;
 }
-#phase .container .phase-wrapper .box .item .logo {
+#phase .container .phase-wrapper .swiper-container .swiper-wrapper .swiper-slide .item .logo {
   width: 114px;
   height: 114px;
   position: absolute;
@@ -476,13 +478,13 @@ header .container menu nav ul li button:hover {
   align-items: center;
   justify-content: center;
 }
-#phase .container .phase-wrapper .box .item .logo h1 {
+#phase .container .phase-wrapper .swiper-container .swiper-wrapper .swiper-slide .item .logo h1 {
   font-size: 64px;
   font-weight: bold;
   font-family: "Montserrat", Sans-serif;
   color: #FFC545;
 }
-#phase .container .phase-wrapper .box .item .title h1 {
+#phase .container .phase-wrapper .swiper-container .swiper-wrapper .swiper-slide .item .title h1 {
   font-size: 24px;
   font-weight: bold;
   font-family: "Montserrat", Sans-serif;
@@ -490,11 +492,11 @@ header .container menu nav ul li button:hover {
   line-height: 29px;
   padding: 10px 0;
 }
-#phase .container .phase-wrapper .box .item .list ul {
+#phase .container .phase-wrapper .swiper-container .swiper-wrapper .swiper-slide .item .list ul {
   padding: 0;
   margin: 0;
 }
-#phase .container .phase-wrapper .box .item .list ul li {
+#phase .container .phase-wrapper .swiper-container .swiper-wrapper .swiper-slide .item .list ul li {
   text-align: center;
   list-style-type: none;
   margin-bottom: 5px;
@@ -525,31 +527,26 @@ header .container menu nav ul li button:hover {
   font-weight: bold;
   font-family: "Montserrat", Sans-serif;
 }
-#exchanges .container .box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, 94px);
-  -moz-column-gap: 20px;
-       column-gap: 20px;
-  row-gap: 20px;
+#exchanges .container .swiper-container {
+  overflow: hidden;
+  padding: 60px 40px;
+  width: 100%;
+  height: 100%;
 }
-#exchanges .container .box .item:hover {
-  box-shadow: 0px 8px 16px transparent;
-}
-#exchanges .container .box .item {
-  transition: 1s ease-out;
-  background-color: white;
+#exchanges .container .swiper-container .swiper-wrapper .swiper-slide {
+  height: 150px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 29px;
   display: flex;
   align-items: center;
+}
+#exchanges .container .swiper-container .swiper-wrapper .swiper-slide .item {
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
-#exchanges .container .box .item img {
-  width: 100%;
-}
-
 #future {
   padding: 100px 0;
   background: #FFFDF5;
@@ -574,31 +571,26 @@ header .container menu nav ul li button:hover {
   font-weight: bold;
   font-family: "Montserrat", Sans-serif;
 }
-#future .container .box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  -moz-column-gap: 20px;
-       column-gap: 20px;
-  grid-template-rows: repeat(2, 94px);
-  row-gap: 20px;
+#future .container .swiper-container {
+  overflow: hidden;
+  padding: 60px 40px;
+  width: 100%;
+  height: 100%;
 }
-#future .container .box .item:hover {
-  box-shadow: 0px 8px 16px transparent;
-}
-#future .container .box .item {
-  transition: 1s ease-out;
-  background-color: white;
+#future .container .swiper-container .swiper-wrapper .swiper-slide {
+  height: 150px;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 29px;
   display: flex;
   align-items: center;
+}
+#future .container .swiper-container .swiper-wrapper .swiper-slide .item {
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
-#future .container .box .item img {
-  width: 100%;
-}
-
 #member {
   padding: 150px 20;
   background: #FFFDF5;
