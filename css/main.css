@@ -802,6 +802,9 @@ footer .container .top .item ul li a {
   text-decoration: none;
   color: #333333;
 }
+footer .container .top .item ul li a:hover {
+  color: #FFC545;
+}
 footer .gambar {
   background-repeat: no-repeat;
   background-position: center;

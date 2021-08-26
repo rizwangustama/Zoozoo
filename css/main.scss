@@ -886,6 +886,9 @@ footer {
               text-decoration: none;
               color: $color-secondary;
             }
+            a:hover {
+              color: $color-primary;
+            }
           }
         }
       }
