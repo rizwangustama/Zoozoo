@@ -198,6 +198,74 @@ header {
   }
 }
 
+#gallery {
+  padding: 100px 0;
+  .container {
+    padding: 0 80px;
+    .title {
+      display: flex;
+      align-items: center;
+      span {
+        height: 2px;
+        width: 54px;
+        background-color: $color-primary;
+        margin-right: 18px;
+      }
+      h1 {
+        color: $color-primary;
+        font-size: 50px;
+        font-family: $font-primary;
+        font-weight: bold;
+      }
+    }
+    .content {
+      margin-top: 16px;
+      margin-bottom: 50px;
+      p {
+        text-align: justify;
+        line-height: 27px;
+      }
+      button:hover {
+        background-color: transparent;
+        border: 2px solid #F1DD04;
+      }
+      button {
+        transition: 1s ease-in-out;
+        background-color: #F1DD04;
+        border: 2px solid transparent;
+        width: 230px;
+        height: 45px;
+        margin-top: 20px;
+        border-radius: 26px;
+      }
+    }
+    .swiper-container {
+      overflow: hidden;
+      // padding: 60px 40px;
+      width: 100%;
+      height: 100%;
+      .swiper-wrapper {
+        .swiper-slide {
+          border-radius: 10px;
+          overflow: hidden;
+          height: 200px;
+          background: #fff;
+          display: flex;
+          align-items: center;
+          .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+              border-radius: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 #about {
   padding: 69px 0px;
   .container {
@@ -444,6 +512,36 @@ header {
                   br {
                     display: none;
                   }
+                }
+              }
+            }
+          }
+          .audit {
+            margin-top: 50px;
+            h3 {
+              font-size: 20px;
+            }
+            div {
+              margin-top: 2px;
+              display: flex;
+              justify-content: flex-end;
+              p {
+                padding: 0 10px;
+                background-color: rgb(201, 201, 201);
+              }
+            }
+            .wrapper {
+              margin-top: 30px;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              column-gap: 20px;
+              a {
+                padding: 20px 40px;
+                background-color: #000;
+                display: flex;
+                img {
+                  height: 30px;
+                  margin: 0 auto;
                 }
               }
             }

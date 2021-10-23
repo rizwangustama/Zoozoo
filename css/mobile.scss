@@ -6,6 +6,10 @@
     display: flex;
   }
 
+  #gallery {
+    padding: 50px 0;
+  }
+
   #phase {
     .container {
       .phase-wrapper {
@@ -95,6 +99,15 @@
       }
     }
   }
+
+  
+  #gallery {
+    padding: 50px 0;
+    .container {
+      padding: 0;
+    }
+  }
+
 
   #about {
     .container {
@@ -278,6 +291,19 @@
       }
     }
   }
+
+  #gallery {
+    padding: 50px 0;
+    .container {
+      padding: 0 40px;
+      .content {
+        button{
+          width: 100%;
+        }
+      }
+    }
+  }
+
 
   #about {
     .container {
@@ -572,6 +598,7 @@
 @media screen and (max-width: 376px) {
   #carosel-mobile {
     .container {
+      padding: 0 40px;
       .title {
         h1 {
           font-size: 48px;
@@ -590,6 +617,7 @@
       }
     }
   }
+
   #about {
     .container {
       .wrapper-about {
@@ -729,6 +757,12 @@
             .title {
               h1 {
                 font-size: 40px;
+              }
+            }
+            .audit {
+              .wrapper {
+                grid-template-columns: 1fr;
+                row-gap: 15px;
               }
             }
           }

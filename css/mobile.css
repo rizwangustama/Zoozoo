@@ -7,6 +7,10 @@
     display: flex;
   }
 
+  #gallery {
+    padding: 50px 0;
+  }
+
   #phase .container .phase-wrapper .box {
     grid-template-columns: 1fr 1fr;
     row-gap: 100px;
@@ -66,6 +70,13 @@
   }
   #carosel-mobile .container button {
     width: 100%;
+  }
+
+  #gallery {
+    padding: 50px 0;
+  }
+  #gallery .container {
+    padding: 0;
   }
 
   #about .container {
@@ -213,6 +224,16 @@
     row-gap: 30px;
   }
   #carosel-mobile .container button {
+    width: 100%;
+  }
+
+  #gallery {
+    padding: 50px 0;
+  }
+  #gallery .container {
+    padding: 0 40px;
+  }
+  #gallery .container .content button {
     width: 100%;
   }
 
@@ -426,6 +447,9 @@
   }
 }
 @media screen and (max-width: 376px) {
+  #carosel-mobile .container {
+    padding: 0 40px;
+  }
   #carosel-mobile .container .title h1 {
     font-size: 48px;
   }
@@ -512,6 +536,10 @@
 
   #coin .container .coin-wrapper .left .left-wrapper .title h1 {
     font-size: 40px;
+  }
+  #coin .container .coin-wrapper .left .left-wrapper .audit .wrapper {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
   }
 
   #games .container .games-wrapper .left .left-wrapper .title h1 {
